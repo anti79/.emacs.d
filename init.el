@@ -1,7 +1,7 @@
 (setq inhibit-startup-screen t)
 (global-set-key [f12] 'menu-bar-open)
 (cua-mode)
-
+(savehist-mode 1)
 (setq initial-scratch-message "")
 (setq initial-major-mode 'text-mode)
 (auto-save-mode -1)
